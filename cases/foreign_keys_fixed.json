@@ -1,0 +1,321 @@
+{
+  "version": 1,
+  "name": "Foreign Keys \u00b7 explicit policy",
+  "tables": [
+    {
+      "name": "parents",
+      "columns": [
+        {
+          "name": "id",
+          "type": "INTEGER",
+          "primary_key": true,
+          "nullable": false,
+          "unique": false
+        }
+      ]
+    },
+    {
+      "name": "records",
+      "columns": [
+        {
+          "name": "id",
+          "type": "INTEGER",
+          "primary_key": true,
+          "nullable": false,
+          "unique": false
+        },
+        {
+          "name": "priority",
+          "type": "INTEGER",
+          "primary_key": false,
+          "nullable": true,
+          "unique": false
+        },
+        {
+          "name": "label",
+          "type": "TEXT",
+          "primary_key": false,
+          "nullable": true,
+          "unique": false
+        },
+        {
+          "name": "parent_id",
+          "type": "INTEGER",
+          "references": {
+            "table": "parents",
+            "column": "id"
+          },
+          "primary_key": false,
+          "nullable": true,
+          "unique": false
+        }
+      ]
+    }
+  ],
+  "rows": [
+    {
+      "id": "parent_seed",
+      "table": "parents",
+      "values": {
+        "id": 1
+      }
+    },
+    {
+      "id": "seed_1",
+      "table": "records",
+      "values": {
+        "id": 1,
+        "priority": 43,
+        "label": "row_1",
+        "parent_id": 1
+      }
+    },
+    {
+      "id": "seed_2",
+      "table": "records",
+      "values": {
+        "id": 2,
+        "priority": 21,
+        "label": "row_2",
+        "parent_id": 1
+      }
+    },
+    {
+      "id": "seed_3",
+      "table": "records",
+      "values": {
+        "id": 3,
+        "priority": 52,
+        "label": "row_3",
+        "parent_id": 1
+      }
+    },
+    {
+      "id": "seed_4",
+      "table": "records",
+      "values": {
+        "id": 4,
+        "priority": 85,
+        "label": "row_4",
+        "parent_id": 1
+      }
+    },
+    {
+      "id": "seed_5",
+      "table": "records",
+      "values": {
+        "id": 5,
+        "priority": 8,
+        "label": "row_5",
+        "parent_id": 1
+      }
+    },
+    {
+      "id": "seed_6",
+      "table": "records",
+      "values": {
+        "id": 6,
+        "priority": 11,
+        "label": "row_6",
+        "parent_id": 1
+      }
+    },
+    {
+      "id": "seed_7",
+      "table": "records",
+      "values": {
+        "id": 7,
+        "priority": 70,
+        "label": "row_7",
+        "parent_id": 1
+      }
+    },
+    {
+      "id": "seed_8",
+      "table": "records",
+      "values": {
+        "id": 8,
+        "priority": 14,
+        "label": "row_8",
+        "parent_id": 1
+      }
+    },
+    {
+      "id": "seed_9",
+      "table": "records",
+      "values": {
+        "id": 9,
+        "priority": 48,
+        "label": "row_9",
+        "parent_id": 1
+      }
+    },
+    {
+      "id": "seed_10",
+      "table": "records",
+      "values": {
+        "id": 10,
+        "priority": 76,
+        "label": "row_10",
+        "parent_id": 1
+      }
+    },
+    {
+      "id": "seed_11",
+      "table": "records",
+      "values": {
+        "id": 11,
+        "priority": 9,
+        "label": "row_11",
+        "parent_id": 1
+      }
+    },
+    {
+      "id": "seed_12",
+      "table": "records",
+      "values": {
+        "id": 12,
+        "priority": 66,
+        "label": "row_12",
+        "parent_id": 1
+      }
+    },
+    {
+      "id": "seed_13",
+      "table": "records",
+      "values": {
+        "id": 13,
+        "priority": 29,
+        "label": "row_13",
+        "parent_id": 1
+      }
+    },
+    {
+      "id": "seed_14",
+      "table": "records",
+      "values": {
+        "id": 14,
+        "priority": 6,
+        "label": "row_14",
+        "parent_id": 1
+      }
+    },
+    {
+      "id": "seed_15",
+      "table": "records",
+      "values": {
+        "id": 15,
+        "priority": 13,
+        "label": "row_15",
+        "parent_id": 1
+      }
+    },
+    {
+      "id": "seed_16",
+      "table": "records",
+      "values": {
+        "id": 16,
+        "priority": 57,
+        "label": "row_16",
+        "parent_id": 1
+      }
+    },
+    {
+      "id": "seed_17",
+      "table": "records",
+      "values": {
+        "id": 17,
+        "priority": 55,
+        "label": "row_17",
+        "parent_id": 1
+      }
+    },
+    {
+      "id": "seed_18",
+      "table": "records",
+      "values": {
+        "id": 18,
+        "priority": 10,
+        "label": "row_18",
+        "parent_id": 1
+      }
+    },
+    {
+      "id": "seed_19",
+      "table": "records",
+      "values": {
+        "id": 19,
+        "priority": 32,
+        "label": "row_19",
+        "parent_id": 1
+      }
+    },
+    {
+      "id": "seed_20",
+      "table": "records",
+      "values": {
+        "id": 20,
+        "priority": 13,
+        "label": "row_20",
+        "parent_id": 1
+      }
+    },
+    {
+      "id": "seed_21",
+      "table": "records",
+      "values": {
+        "id": 21,
+        "priority": 72,
+        "label": "row_21",
+        "parent_id": 1
+      }
+    },
+    {
+      "id": "seed_22",
+      "table": "records",
+      "values": {
+        "id": 22,
+        "priority": 56,
+        "label": "row_22",
+        "parent_id": 1
+      }
+    },
+    {
+      "id": "seed_23",
+      "table": "records",
+      "values": {
+        "id": 23,
+        "priority": 9,
+        "label": "row_23",
+        "parent_id": 1
+      }
+    },
+    {
+      "id": "seed_24",
+      "table": "records",
+      "values": {
+        "id": 24,
+        "priority": 74,
+        "label": "row_24",
+        "parent_id": 1
+      }
+    }
+  ],
+  "operations": [
+    {
+      "id": "orphan_insert",
+      "type": "insert",
+      "table": "records",
+      "values": {
+        "id": 25,
+        "parent_id": 999999,
+        "priority": 3,
+        "label": "orphan"
+      }
+    }
+  ],
+  "sqlite": {
+    "foreign_keys": true,
+    "strict": false
+  }
+}

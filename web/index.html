@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>DB Drift Detective</title><link rel="stylesheet" href="/static/style.css"><script src="/static/app.js" defer></script></head>
+<body>
+<header><a href="/" class="brand"><span>⇄</span> DB Drift Detective</a><div class="connection" id="connection" role="status">Connecting…</div></header>
+<main>
+  <section class="intro"><div class="eyebrow">SQLITE → POSTGRESQL · COMPATIBILITY LAB</div><h1>Same application.<br><em>Different answers?</em></h1><p>Compare real database behavior. Isolate the smallest case that explains a migration regression.</p></section>
+  <div class="layout">
+    <aside>
+      <section class="panel"><div class="heading"><h2>Experiment setup</h2><span class="label">JSON v1</span></div>
+        <label for="preset">Case library</label><select id="preset"></select>
+        <div class="generator"><label for="size">Generated seed rows</label><div class="inline"><input id="size" type="number" value="100" min="2" max="1000"><button id="generate">Generate</button></div></div>
+        <label for="case">Schema, data & operations</label><textarea id="case" rows="14" spellcheck="false"></textarea>
+        <button id="compare" class="primary">Compare databases <span>↗</span></button>
+        <p class="hint">Fresh SQLite file + isolated PostgreSQL schema for each comparison. No application tables are inspected.</p>
+      </section>
+      <section class="panel history"><div class="heading"><h2>Experiment history</h2><span id="count" class="label">0</span></div><div id="history"></div></section>
+    </aside>
+    <section class="panel inspector">
+      <div class="heading"><h2 id="title">Comparison inspector</h2><span id="status" class="badge">READY</span></div>
+      <p id="description" class="muted">Select a known case or generate a larger dataset.</p>
+      <div id="actions" hidden><button id="replay">Replay</button><button id="reduce">Reduce case</button><button id="cancel">Cancel</button><a id="download" class="button">Download reproduction</a></div>
+      <p id="error" role="status" aria-live="polite"></p>
+      <div id="metrics" class="metrics"></div>
+      <div id="reduction"></div>
+      <div id="findings"></div>
+      <div class="heading section"><h2>Durable database state</h2><span class="label">AFTER ALL OPERATIONS</span></div>
+      <div id="state" class="muted">Database snapshots appear after a comparison finishes.</div>
+    </section>
+  </div>
+</main><footer>Real SQLite and PostgreSQL · Parameterized operations · Reproducible evidence on D drive</footer>
+</body></html>

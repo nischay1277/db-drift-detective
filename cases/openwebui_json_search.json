@@ -1,0 +1,967 @@
+{
+  "version": 1,
+  "name": "Open WebUI historical JSON search \u00b7 original input",
+  "tables": [
+    {
+      "name": "chat",
+      "columns": [
+        {
+          "name": "id",
+          "type": "TEXT",
+          "primary_key": true,
+          "nullable": false,
+          "unique": false
+        },
+        {
+          "name": "title",
+          "type": "TEXT",
+          "primary_key": false,
+          "nullable": true,
+          "unique": false
+        },
+        {
+          "name": "chat",
+          "type": "JSON",
+          "primary_key": false,
+          "nullable": true,
+          "unique": false
+        }
+      ]
+    }
+  ],
+  "rows": [
+    {
+      "id": "chat_seed_0",
+      "table": "chat",
+      "values": {
+        "id": "fixture_0",
+        "title": "Fixture chat 0",
+        "chat": "{\"messages\": [{\"id\": \"message_0\", \"role\": \"assistant\", \"content\": \"Unrelated archive note 0\"}], \"history\": {\"messages\": {}}}"
+      }
+    },
+    {
+      "id": "chat_seed_1",
+      "table": "chat",
+      "values": {
+        "id": "fixture_1",
+        "title": "Fixture chat 1",
+        "chat": "{\"messages\": [{\"id\": \"message_1\", \"role\": \"assistant\", \"content\": \"Unrelated archive note 1\"}], \"history\": {\"messages\": {}}}"
+      }
+    },
+    {
+      "id": "chat_seed_2",
+      "table": "chat",
+      "values": {
+        "id": "fixture_2",
+        "title": "Fixture chat 2",
+        "chat": "{\"messages\": [{\"id\": \"message_2\", \"role\": \"assistant\", \"content\": \"Unrelated archive note 2\"}], \"history\": {\"messages\": {}}}"
+      }
+    },
+    {
+      "id": "chat_seed_3",
+      "table": "chat",
+      "values": {
+        "id": "fixture_3",
+        "title": "Fixture chat 3",
+        "chat": "{\"messages\": [{\"id\": \"message_3\", \"role\": \"assistant\", \"content\": \"Unrelated archive note 3\"}], \"history\": {\"messages\": {}}}"
+      }
+    },
+    {
+      "id": "chat_seed_4",
+      "table": "chat",
+      "values": {
+        "id": "fixture_4",
+        "title": "Fixture chat 4",
+        "chat": "{\"messages\": [{\"id\": \"message_4\", \"role\": \"assistant\", \"content\": \"Unrelated archive note 4\"}], \"history\": {\"messages\": {}}}"
+      }
+    },
+    {
+      "id": "chat_seed_5",
+      "table": "chat",
+      "values": {
+        "id": "fixture_5",
+        "title": "Fixture chat 5",
+        "chat": "{\"messages\": [{\"id\": \"message_5\", \"role\": \"assistant\", \"content\": \"Unrelated archive note 5\"}], \"history\": {\"messages\": {}}}"
+      }
+    },
+    {
+      "id": "chat_seed_6",
+      "table": "chat",
+      "values": {
+        "id": "fixture_6",
+        "title": "Fixture chat 6",
+        "chat": "{\"messages\": [{\"id\": \"message_6\", \"role\": \"assistant\", \"content\": \"Unrelated archive note 6\"}], \"history\": {\"messages\": {}}}"
+      }
+    },
+    {
+      "id": "chat_seed_7",
+      "table": "chat",
+      "values": {
+        "id": "fixture_7",
+        "title": "Fixture chat 7",
+        "chat": "{\"messages\": [{\"id\": \"message_7\", \"role\": \"assistant\", \"content\": \"Unrelated archive note 7\"}], \"history\": {\"messages\": {}}}"
+      }
+    },
+    {
+      "id": "chat_seed_8",
+      "table": "chat",
+      "values": {
+        "id": "fixture_8",
+        "title": "Fixture chat 8",
+        "chat": "{\"messages\": [{\"id\": \"message_8\", \"role\": \"assistant\", \"content\": \"Unrelated archive note 8\"}], \"history\": {\"messages\": {}}}"
+      }
+    },
+    {
+      "id": "chat_seed_9",
+      "table": "chat",
+      "values": {
+        "id": "fixture_9",
+        "title": "Fixture chat 9",
+        "chat": "{\"messages\": [{\"id\": \"message_9\", \"role\": \"assistant\", \"content\": \"Unrelated archive note 9\"}], \"history\": {\"messages\": {}}}"
+      }
+    },
+    {
+      "id": "chat_seed_10",
+      "table": "chat",
+      "values": {
+        "id": "fixture_10",
+        "title": "Fixture chat 10",
+        "chat": "{\"messages\": [{\"id\": \"message_10\", \"role\": \"assistant\", \"content\": \"Unrelated archive note 10\"}], \"history\": {\"messages\": {}}}"
+      }
+    },
+    {
+      "id": "chat_seed_11",
+      "table": "chat",
+      "values": {
+        "id": "fixture_11",
+        "title": "Fixture chat 11",
+        "chat": "{\"messages\": [{\"id\": \"message_11\", \"role\": \"assistant\", \"content\": \"Unrelated archive note 11\"}], \"history\": {\"messages\": {}}}"
+      }
+    },
+    {
+      "id": "chat_seed_12",
+      "table": "chat",
+      "values": {
+        "id": "fixture_12",
+        "title": "Fixture chat 12",
+        "chat": "{\"messages\": [{\"id\": \"message_12\", \"role\": \"assistant\", \"content\": \"Unrelated archive note 12\"}], \"history\": {\"messages\": {}}}"
+      }
+    },
+    {
+      "id": "chat_seed_13",
+      "table": "chat",
+      "values": {
+        "id": "fixture_13",
+        "title": "Fixture chat 13",
+        "chat": "{\"messages\": [{\"id\": \"message_13\", \"role\": \"assistant\", \"content\": \"Unrelated archive note 13\"}], \"history\": {\"messages\": {}}}"
+      }
+    },
+    {
+      "id": "chat_seed_14",
+      "table": "chat",
+      "values": {
+        "id": "fixture_14",
+        "title": "Fixture chat 14",
+        "chat": "{\"messages\": [{\"id\": \"message_14\", \"role\": \"assistant\", \"content\": \"Unrelated archive note 14\"}], \"history\": {\"messages\": {}}}"
+      }
+    },
+    {
+      "id": "chat_seed_15",
+      "table": "chat",
+      "values": {
+        "id": "fixture_15",
+        "title": "Fixture chat 15",
+        "chat": "{\"messages\": [{\"id\": \"message_15\", \"role\": \"assistant\", \"content\": \"Unrelated archive note 15\"}], \"history\": {\"messages\": {}}}"
+      }
+    },
+    {
+      "id": "chat_seed_16",
+      "table": "chat",
+      "values": {
+        "id": "fixture_16",
+        "title": "Fixture chat 16",
+        "chat": "{\"messages\": [{\"id\": \"message_16\", \"role\": \"assistant\", \"content\": \"Unrelated archive note 16\"}], \"history\": {\"messages\": {}}}"
+      }
+    },
+    {
+      "id": "chat_seed_17",
+      "table": "chat",
+      "values": {
+        "id": "fixture_17",
+        "title": "Fixture chat 17",
+        "chat": "{\"messages\": [{\"id\": \"message_17\", \"role\": \"assistant\", \"content\": \"Unrelated archive note 17\"}], \"history\": {\"messages\": {}}}"
+      }
+    },
+    {
+      "id": "chat_seed_18",
+      "table": "chat",
+      "values": {
+        "id": "fixture_18",
+        "title": "Fixture chat 18",
+        "chat": "{\"messages\": [{\"id\": \"message_18\", \"role\": \"assistant\", \"content\": \"Unrelated archive note 18\"}], \"history\": {\"messages\": {}}}"
+      }
+    },
+    {
+      "id": "chat_seed_19",
+      "table": "chat",
+      "values": {
+        "id": "fixture_19",
+        "title": "Fixture chat 19",
+        "chat": "{\"messages\": [{\"id\": \"message_19\", \"role\": \"assistant\", \"content\": \"Unrelated archive note 19\"}], \"history\": {\"messages\": {}}}"
+      }
+    },
+    {
+      "id": "chat_seed_20",
+      "table": "chat",
+      "values": {
+        "id": "fixture_20",
+        "title": "Fixture chat 20",
+        "chat": "{\"messages\": [{\"id\": \"message_20\", \"role\": \"assistant\", \"content\": \"Unrelated archive note 20\"}], \"history\": {\"messages\": {}}}"
+      }
+    },
+    {
+      "id": "chat_seed_21",
+      "table": "chat",
+      "values": {
+        "id": "fixture_21",
+        "title": "Fixture chat 21",
+        "chat": "{\"messages\": [{\"id\": \"message_21\", \"role\": \"assistant\", \"content\": \"Unrelated archive note 21\"}], \"history\": {\"messages\": {}}}"
+      }
+    },
+    {
+      "id": "chat_seed_22",
+      "table": "chat",
+      "values": {
+        "id": "fixture_22",
+        "title": "Fixture chat 22",
+        "chat": "{\"messages\": [{\"id\": \"message_22\", \"role\": \"assistant\", \"content\": \"Unrelated archive note 22\"}], \"history\": {\"messages\": {}}}"
+      }
+    },
+    {
+      "id": "chat_seed_23",
+      "table": "chat",
+      "values": {
+        "id": "fixture_23",
+        "title": "Fixture chat 23",
+        "chat": "{\"messages\": [{\"id\": \"message_23\", \"role\": \"assistant\", \"content\": \"Unrelated archive note 23\"}], \"history\": {\"messages\": {}}}"
+      }
+    },
+    {
+      "id": "chat_seed_24",
+      "table": "chat",
+      "values": {
+        "id": "fixture_24",
+        "title": "Fixture chat 24",
+        "chat": "{\"messages\": [{\"id\": \"message_24\", \"role\": \"assistant\", \"content\": \"Unrelated archive note 24\"}], \"history\": {\"messages\": {}}}"
+      }
+    },
+    {
+      "id": "chat_seed_25",
+      "table": "chat",
+      "values": {
+        "id": "fixture_25",
+        "title": "Fixture chat 25",
+        "chat": "{\"messages\": [{\"id\": \"message_25\", \"role\": \"assistant\", \"content\": \"Unrelated archive note 25\"}], \"history\": {\"messages\": {}}}"
+      }
+    },
+    {
+      "id": "chat_seed_26",
+      "table": "chat",
+      "values": {
+        "id": "fixture_26",
+        "title": "Fixture chat 26",
+        "chat": "{\"messages\": [{\"id\": \"message_26\", \"role\": \"assistant\", \"content\": \"Unrelated archive note 26\"}], \"history\": {\"messages\": {}}}"
+      }
+    },
+    {
+      "id": "chat_seed_27",
+      "table": "chat",
+      "values": {
+        "id": "fixture_27",
+        "title": "Fixture chat 27",
+        "chat": "{\"messages\": [{\"id\": \"message_27\", \"role\": \"assistant\", \"content\": \"Unrelated archive note 27\"}], \"history\": {\"messages\": {}}}"
+      }
+    },
+    {
+      "id": "chat_seed_28",
+      "table": "chat",
+      "values": {
+        "id": "fixture_28",
+        "title": "Fixture chat 28",
+        "chat": "{\"messages\": [{\"id\": \"message_28\", \"role\": \"assistant\", \"content\": \"Unrelated archive note 28\"}], \"history\": {\"messages\": {}}}"
+      }
+    },
+    {
+      "id": "chat_seed_29",
+      "table": "chat",
+      "values": {
+        "id": "fixture_29",
+        "title": "Fixture chat 29",
+        "chat": "{\"messages\": [{\"id\": \"message_29\", \"role\": \"assistant\", \"content\": \"Unrelated archive note 29\"}], \"history\": {\"messages\": {}}}"
+      }
+    },
+    {
+      "id": "chat_seed_30",
+      "table": "chat",
+      "values": {
+        "id": "fixture_30",
+        "title": "Fixture chat 30",
+        "chat": "{\"messages\": [{\"id\": \"message_30\", \"role\": \"assistant\", \"content\": \"Unrelated archive note 30\"}], \"history\": {\"messages\": {}}}"
+      }
+    },
+    {
+      "id": "chat_seed_31",
+      "table": "chat",
+      "values": {
+        "id": "fixture_31",
+        "title": "Fixture chat 31",
+        "chat": "{\"messages\": [{\"id\": \"message_31\", \"role\": \"assistant\", \"content\": \"Unrelated archive note 31\"}], \"history\": {\"messages\": {}}}"
+      }
+    },
+    {
+      "id": "chat_seed_32",
+      "table": "chat",
+      "values": {
+        "id": "fixture_32",
+        "title": "Fixture chat 32",
+        "chat": "{\"messages\": [{\"id\": \"message_32\", \"role\": \"assistant\", \"content\": \"Unrelated archive note 32\"}], \"history\": {\"messages\": {}}}"
+      }
+    },
+    {
+      "id": "chat_seed_33",
+      "table": "chat",
+      "values": {
+        "id": "fixture_33",
+        "title": "Fixture chat 33",
+        "chat": "{\"messages\": [{\"id\": \"message_33\", \"role\": \"assistant\", \"content\": \"Unrelated archive note 33\"}], \"history\": {\"messages\": {}}}"
+      }
+    },
+    {
+      "id": "chat_seed_34",
+      "table": "chat",
+      "values": {
+        "id": "fixture_34",
+        "title": "Fixture chat 34",
+        "chat": "{\"messages\": [{\"id\": \"message_34\", \"role\": \"assistant\", \"content\": \"Unrelated archive note 34\"}], \"history\": {\"messages\": {}}}"
+      }
+    },
+    {
+      "id": "chat_seed_35",
+      "table": "chat",
+      "values": {
+        "id": "fixture_35",
+        "title": "Fixture chat 35",
+        "chat": "{\"messages\": [{\"id\": \"message_35\", \"role\": \"assistant\", \"content\": \"Unrelated archive note 35\"}], \"history\": {\"messages\": {}}}"
+      }
+    },
+    {
+      "id": "chat_seed_36",
+      "table": "chat",
+      "values": {
+        "id": "fixture_36",
+        "title": "Fixture chat 36",
+        "chat": "{\"messages\": [{\"id\": \"message_36\", \"role\": \"assistant\", \"content\": \"Unrelated archive note 36\"}], \"history\": {\"messages\": {}}}"
+      }
+    },
+    {
+      "id": "chat_seed_37",
+      "table": "chat",
+      "values": {
+        "id": "fixture_37",
+        "title": "Fixture chat 37",
+        "chat": "{\"messages\": [{\"id\": \"message_37\", \"role\": \"assistant\", \"content\": \"Unrelated archive note 37\"}], \"history\": {\"messages\": {}}}"
+      }
+    },
+    {
+      "id": "chat_seed_38",
+      "table": "chat",
+      "values": {
+        "id": "fixture_38",
+        "title": "Fixture chat 38",
+        "chat": "{\"messages\": [{\"id\": \"message_38\", \"role\": \"assistant\", \"content\": \"Unrelated archive note 38\"}], \"history\": {\"messages\": {}}}"
+      }
+    },
+    {
+      "id": "chat_seed_39",
+      "table": "chat",
+      "values": {
+        "id": "fixture_39",
+        "title": "Fixture chat 39",
+        "chat": "{\"messages\": [{\"id\": \"message_39\", \"role\": \"assistant\", \"content\": \"Unrelated archive note 39\"}], \"history\": {\"messages\": {}}}"
+      }
+    },
+    {
+      "id": "chat_seed_40",
+      "table": "chat",
+      "values": {
+        "id": "fixture_40",
+        "title": "Fixture chat 40",
+        "chat": "{\"messages\": [{\"id\": \"message_40\", \"role\": \"assistant\", \"content\": \"Unrelated archive note 40\"}], \"history\": {\"messages\": {}}}"
+      }
+    },
+    {
+      "id": "chat_seed_41",
+      "table": "chat",
+      "values": {
+        "id": "fixture_41",
+        "title": "Fixture chat 41",
+        "chat": "{\"messages\": [{\"id\": \"message_41\", \"role\": \"assistant\", \"content\": \"Unrelated archive note 41\"}], \"history\": {\"messages\": {}}}"
+      }
+    },
+    {
+      "id": "chat_seed_42",
+      "table": "chat",
+      "values": {
+        "id": "fixture_42",
+        "title": "Fixture chat 42",
+        "chat": "{\"messages\": [{\"id\": \"message_42\", \"role\": \"assistant\", \"content\": \"Unrelated archive note 42\"}], \"history\": {\"messages\": {}}}"
+      }
+    },
+    {
+      "id": "chat_seed_43",
+      "table": "chat",
+      "values": {
+        "id": "fixture_43",
+        "title": "Fixture chat 43",
+        "chat": "{\"messages\": [{\"id\": \"message_43\", \"role\": \"assistant\", \"content\": \"Unrelated archive note 43\"}], \"history\": {\"messages\": {}}}"
+      }
+    },
+    {
+      "id": "chat_seed_44",
+      "table": "chat",
+      "values": {
+        "id": "fixture_44",
+        "title": "Fixture chat 44",
+        "chat": "{\"messages\": [{\"id\": \"message_44\", \"role\": \"assistant\", \"content\": \"Unrelated archive note 44\"}], \"history\": {\"messages\": {}}}"
+      }
+    },
+    {
+      "id": "chat_seed_45",
+      "table": "chat",
+      "values": {
+        "id": "fixture_45",
+        "title": "Fixture chat 45",
+        "chat": "{\"messages\": [{\"id\": \"message_45\", \"role\": \"assistant\", \"content\": \"Unrelated archive note 45\"}], \"history\": {\"messages\": {}}}"
+      }
+    },
+    {
+      "id": "chat_seed_46",
+      "table": "chat",
+      "values": {
+        "id": "fixture_46",
+        "title": "Fixture chat 46",
+        "chat": "{\"messages\": [{\"id\": \"message_46\", \"role\": \"assistant\", \"content\": \"Unrelated archive note 46\"}], \"history\": {\"messages\": {}}}"
+      }
+    },
+    {
+      "id": "chat_seed_47",
+      "table": "chat",
+      "values": {
+        "id": "fixture_47",
+        "title": "Fixture chat 47",
+        "chat": "{\"messages\": [{\"id\": \"message_47\", \"role\": \"assistant\", \"content\": \"Unrelated archive note 47\"}], \"history\": {\"messages\": {}}}"
+      }
+    },
+    {
+      "id": "chat_seed_48",
+      "table": "chat",
+      "values": {
+        "id": "fixture_48",
+        "title": "Fixture chat 48",
+        "chat": "{\"messages\": [{\"id\": \"message_48\", \"role\": \"assistant\", \"content\": \"Unrelated archive note 48\"}], \"history\": {\"messages\": {}}}"
+      }
+    },
+    {
+      "id": "chat_seed_49",
+      "table": "chat",
+      "values": {
+        "id": "fixture_49",
+        "title": "Fixture chat 49",
+        "chat": "{\"messages\": [{\"id\": \"message_49\", \"role\": \"assistant\", \"content\": \"Unrelated archive note 49\"}], \"history\": {\"messages\": {}}}"
+      }
+    },
+    {
+      "id": "chat_seed_50",
+      "table": "chat",
+      "values": {
+        "id": "fixture_50",
+        "title": "Fixture chat 50",
+        "chat": "{\"messages\": [{\"id\": \"message_50\", \"role\": \"assistant\", \"content\": \"semax investigation clue\\u0000remaining text\"}], \"history\": {\"messages\": {}}}"
+      }
+    },
+    {
+      "id": "chat_seed_51",
+      "table": "chat",
+      "values": {
+        "id": "fixture_51",
+        "title": "Fixture chat 51",
+        "chat": "{\"messages\": [{\"id\": \"message_51\", \"role\": \"assistant\", \"content\": \"Unrelated archive note 51\"}], \"history\": {\"messages\": {}}}"
+      }
+    },
+    {
+      "id": "chat_seed_52",
+      "table": "chat",
+      "values": {
+        "id": "fixture_52",
+        "title": "Fixture chat 52",
+        "chat": "{\"messages\": [{\"id\": \"message_52\", \"role\": \"assistant\", \"content\": \"Unrelated archive note 52\"}], \"history\": {\"messages\": {}}}"
+      }
+    },
+    {
+      "id": "chat_seed_53",
+      "table": "chat",
+      "values": {
+        "id": "fixture_53",
+        "title": "Fixture chat 53",
+        "chat": "{\"messages\": [{\"id\": \"message_53\", \"role\": \"assistant\", \"content\": \"Unrelated archive note 53\"}], \"history\": {\"messages\": {}}}"
+      }
+    },
+    {
+      "id": "chat_seed_54",
+      "table": "chat",
+      "values": {
+        "id": "fixture_54",
+        "title": "Fixture chat 54",
+        "chat": "{\"messages\": [{\"id\": \"message_54\", \"role\": \"assistant\", \"content\": \"Unrelated archive note 54\"}], \"history\": {\"messages\": {}}}"
+      }
+    },
+    {
+      "id": "chat_seed_55",
+      "table": "chat",
+      "values": {
+        "id": "fixture_55",
+        "title": "Fixture chat 55",
+        "chat": "{\"messages\": [{\"id\": \"message_55\", \"role\": \"assistant\", \"content\": \"Unrelated archive note 55\"}], \"history\": {\"messages\": {}}}"
+      }
+    },
+    {
+      "id": "chat_seed_56",
+      "table": "chat",
+      "values": {
+        "id": "fixture_56",
+        "title": "Fixture chat 56",
+        "chat": "{\"messages\": [{\"id\": \"message_56\", \"role\": \"assistant\", \"content\": \"Unrelated archive note 56\"}], \"history\": {\"messages\": {}}}"
+      }
+    },
+    {
+      "id": "chat_seed_57",
+      "table": "chat",
+      "values": {
+        "id": "fixture_57",
+        "title": "Fixture chat 57",
+        "chat": "{\"messages\": [{\"id\": \"message_57\", \"role\": \"assistant\", \"content\": \"Unrelated archive note 57\"}], \"history\": {\"messages\": {}}}"
+      }
+    },
+    {
+      "id": "chat_seed_58",
+      "table": "chat",
+      "values": {
+        "id": "fixture_58",
+        "title": "Fixture chat 58",
+        "chat": "{\"messages\": [{\"id\": \"message_58\", \"role\": \"assistant\", \"content\": \"Unrelated archive note 58\"}], \"history\": {\"messages\": {}}}"
+      }
+    },
+    {
+      "id": "chat_seed_59",
+      "table": "chat",
+      "values": {
+        "id": "fixture_59",
+        "title": "Fixture chat 59",
+        "chat": "{\"messages\": [{\"id\": \"message_59\", \"role\": \"assistant\", \"content\": \"Unrelated archive note 59\"}], \"history\": {\"messages\": {}}}"
+      }
+    },
+    {
+      "id": "chat_seed_60",
+      "table": "chat",
+      "values": {
+        "id": "fixture_60",
+        "title": "Fixture chat 60",
+        "chat": "{\"messages\": [{\"id\": \"message_60\", \"role\": \"assistant\", \"content\": \"Unrelated archive note 60\"}], \"history\": {\"messages\": {}}}"
+      }
+    },
+    {
+      "id": "chat_seed_61",
+      "table": "chat",
+      "values": {
+        "id": "fixture_61",
+        "title": "Fixture chat 61",
+        "chat": "{\"messages\": [{\"id\": \"message_61\", \"role\": \"assistant\", \"content\": \"Unrelated archive note 61\"}], \"history\": {\"messages\": {}}}"
+      }
+    },
+    {
+      "id": "chat_seed_62",
+      "table": "chat",
+      "values": {
+        "id": "fixture_62",
+        "title": "Fixture chat 62",
+        "chat": "{\"messages\": [{\"id\": \"message_62\", \"role\": \"assistant\", \"content\": \"Unrelated archive note 62\"}], \"history\": {\"messages\": {}}}"
+      }
+    },
+    {
+      "id": "chat_seed_63",
+      "table": "chat",
+      "values": {
+        "id": "fixture_63",
+        "title": "Fixture chat 63",
+        "chat": "{\"messages\": [{\"id\": \"message_63\", \"role\": \"assistant\", \"content\": \"Unrelated archive note 63\"}], \"history\": {\"messages\": {}}}"
+      }
+    },
+    {
+      "id": "chat_seed_64",
+      "table": "chat",
+      "values": {
+        "id": "fixture_64",
+        "title": "Fixture chat 64",
+        "chat": "{\"messages\": [{\"id\": \"message_64\", \"role\": \"assistant\", \"content\": \"Unrelated archive note 64\"}], \"history\": {\"messages\": {}}}"
+      }
+    },
+    {
+      "id": "chat_seed_65",
+      "table": "chat",
+      "values": {
+        "id": "fixture_65",
+        "title": "Fixture chat 65",
+        "chat": "{\"messages\": [{\"id\": \"message_65\", \"role\": \"assistant\", \"content\": \"Unrelated archive note 65\"}], \"history\": {\"messages\": {}}}"
+      }
+    },
+    {
+      "id": "chat_seed_66",
+      "table": "chat",
+      "values": {
+        "id": "fixture_66",
+        "title": "Fixture chat 66",
+        "chat": "{\"messages\": [{\"id\": \"message_66\", \"role\": \"assistant\", \"content\": \"Unrelated archive note 66\"}], \"history\": {\"messages\": {}}}"
+      }
+    },
+    {
+      "id": "chat_seed_67",
+      "table": "chat",
+      "values": {
+        "id": "fixture_67",
+        "title": "Fixture chat 67",
+        "chat": "{\"messages\": [{\"id\": \"message_67\", \"role\": \"assistant\", \"content\": \"Unrelated archive note 67\"}], \"history\": {\"messages\": {}}}"
+      }
+    },
+    {
+      "id": "chat_seed_68",
+      "table": "chat",
+      "values": {
+        "id": "fixture_68",
+        "title": "Fixture chat 68",
+        "chat": "{\"messages\": [{\"id\": \"message_68\", \"role\": \"assistant\", \"content\": \"Unrelated archive note 68\"}], \"history\": {\"messages\": {}}}"
+      }
+    },
+    {
+      "id": "chat_seed_69",
+      "table": "chat",
+      "values": {
+        "id": "fixture_69",
+        "title": "Fixture chat 69",
+        "chat": "{\"messages\": [{\"id\": \"message_69\", \"role\": \"assistant\", \"content\": \"Unrelated archive note 69\"}], \"history\": {\"messages\": {}}}"
+      }
+    },
+    {
+      "id": "chat_seed_70",
+      "table": "chat",
+      "values": {
+        "id": "fixture_70",
+        "title": "Fixture chat 70",
+        "chat": "{\"messages\": [{\"id\": \"message_70\", \"role\": \"assistant\", \"content\": \"Unrelated archive note 70\"}], \"history\": {\"messages\": {}}}"
+      }
+    },
+    {
+      "id": "chat_seed_71",
+      "table": "chat",
+      "values": {
+        "id": "fixture_71",
+        "title": "Fixture chat 71",
+        "chat": "{\"messages\": [{\"id\": \"message_71\", \"role\": \"assistant\", \"content\": \"Unrelated archive note 71\"}], \"history\": {\"messages\": {}}}"
+      }
+    },
+    {
+      "id": "chat_seed_72",
+      "table": "chat",
+      "values": {
+        "id": "fixture_72",
+        "title": "Fixture chat 72",
+        "chat": "{\"messages\": [{\"id\": \"message_72\", \"role\": \"assistant\", \"content\": \"Unrelated archive note 72\"}], \"history\": {\"messages\": {}}}"
+      }
+    },
+    {
+      "id": "chat_seed_73",
+      "table": "chat",
+      "values": {
+        "id": "fixture_73",
+        "title": "Fixture chat 73",
+        "chat": "{\"messages\": [{\"id\": \"message_73\", \"role\": \"assistant\", \"content\": \"Unrelated archive note 73\"}], \"history\": {\"messages\": {}}}"
+      }
+    },
+    {
+      "id": "chat_seed_74",
+      "table": "chat",
+      "values": {
+        "id": "fixture_74",
+        "title": "Fixture chat 74",
+        "chat": "{\"messages\": [{\"id\": \"message_74\", \"role\": \"assistant\", \"content\": \"Unrelated archive note 74\"}], \"history\": {\"messages\": {}}}"
+      }
+    },
+    {
+      "id": "chat_seed_75",
+      "table": "chat",
+      "values": {
+        "id": "fixture_75",
+        "title": "Fixture chat 75",
+        "chat": "{\"messages\": [{\"id\": \"message_75\", \"role\": \"assistant\", \"content\": \"Unrelated archive note 75\"}], \"history\": {\"messages\": {}}}"
+      }
+    },
+    {
+      "id": "chat_seed_76",
+      "table": "chat",
+      "values": {
+        "id": "fixture_76",
+        "title": "Fixture chat 76",
+        "chat": "{\"messages\": [{\"id\": \"message_76\", \"role\": \"assistant\", \"content\": \"Unrelated archive note 76\"}], \"history\": {\"messages\": {}}}"
+      }
+    },
+    {
+      "id": "chat_seed_77",
+      "table": "chat",
+      "values": {
+        "id": "fixture_77",
+        "title": "Fixture chat 77",
+        "chat": "{\"messages\": [{\"id\": \"message_77\", \"role\": \"assistant\", \"content\": \"Unrelated archive note 77\"}], \"history\": {\"messages\": {}}}"
+      }
+    },
+    {
+      "id": "chat_seed_78",
+      "table": "chat",
+      "values": {
+        "id": "fixture_78",
+        "title": "Fixture chat 78",
+        "chat": "{\"messages\": [{\"id\": \"message_78\", \"role\": \"assistant\", \"content\": \"Unrelated archive note 78\"}], \"history\": {\"messages\": {}}}"
+      }
+    },
+    {
+      "id": "chat_seed_79",
+      "table": "chat",
+      "values": {
+        "id": "fixture_79",
+        "title": "Fixture chat 79",
+        "chat": "{\"messages\": [{\"id\": \"message_79\", \"role\": \"assistant\", \"content\": \"Unrelated archive note 79\"}], \"history\": {\"messages\": {}}}"
+      }
+    },
+    {
+      "id": "chat_seed_80",
+      "table": "chat",
+      "values": {
+        "id": "fixture_80",
+        "title": "Fixture chat 80",
+        "chat": "{\"messages\": [{\"id\": \"message_80\", \"role\": \"assistant\", \"content\": \"Unrelated archive note 80\"}], \"history\": {\"messages\": {}}}"
+      }
+    },
+    {
+      "id": "chat_seed_81",
+      "table": "chat",
+      "values": {
+        "id": "fixture_81",
+        "title": "Fixture chat 81",
+        "chat": "{\"messages\": [{\"id\": \"message_81\", \"role\": \"assistant\", \"content\": \"Unrelated archive note 81\"}], \"history\": {\"messages\": {}}}"
+      }
+    },
+    {
+      "id": "chat_seed_82",
+      "table": "chat",
+      "values": {
+        "id": "fixture_82",
+        "title": "Fixture chat 82",
+        "chat": "{\"messages\": [{\"id\": \"message_82\", \"role\": \"assistant\", \"content\": \"Unrelated archive note 82\"}], \"history\": {\"messages\": {}}}"
+      }
+    },
+    {
+      "id": "chat_seed_83",
+      "table": "chat",
+      "values": {
+        "id": "fixture_83",
+        "title": "Fixture chat 83",
+        "chat": "{\"messages\": [{\"id\": \"message_83\", \"role\": \"assistant\", \"content\": \"Unrelated archive note 83\"}], \"history\": {\"messages\": {}}}"
+      }
+    },
+    {
+      "id": "chat_seed_84",
+      "table": "chat",
+      "values": {
+        "id": "fixture_84",
+        "title": "Fixture chat 84",
+        "chat": "{\"messages\": [{\"id\": \"message_84\", \"role\": \"assistant\", \"content\": \"Unrelated archive note 84\"}], \"history\": {\"messages\": {}}}"
+      }
+    },
+    {
+      "id": "chat_seed_85",
+      "table": "chat",
+      "values": {
+        "id": "fixture_85",
+        "title": "Fixture chat 85",
+        "chat": "{\"messages\": [{\"id\": \"message_85\", \"role\": \"assistant\", \"content\": \"Unrelated archive note 85\"}], \"history\": {\"messages\": {}}}"
+      }
+    },
+    {
+      "id": "chat_seed_86",
+      "table": "chat",
+      "values": {
+        "id": "fixture_86",
+        "title": "Fixture chat 86",
+        "chat": "{\"messages\": [{\"id\": \"message_86\", \"role\": \"assistant\", \"content\": \"Unrelated archive note 86\"}], \"history\": {\"messages\": {}}}"
+      }
+    },
+    {
+      "id": "chat_seed_87",
+      "table": "chat",
+      "values": {
+        "id": "fixture_87",
+        "title": "Fixture chat 87",
+        "chat": "{\"messages\": [{\"id\": \"message_87\", \"role\": \"assistant\", \"content\": \"Unrelated archive note 87\"}], \"history\": {\"messages\": {}}}"
+      }
+    },
+    {
+      "id": "chat_seed_88",
+      "table": "chat",
+      "values": {
+        "id": "fixture_88",
+        "title": "Fixture chat 88",
+        "chat": "{\"messages\": [{\"id\": \"message_88\", \"role\": \"assistant\", \"content\": \"Unrelated archive note 88\"}], \"history\": {\"messages\": {}}}"
+      }
+    },
+    {
+      "id": "chat_seed_89",
+      "table": "chat",
+      "values": {
+        "id": "fixture_89",
+        "title": "Fixture chat 89",
+        "chat": "{\"messages\": [{\"id\": \"message_89\", \"role\": \"assistant\", \"content\": \"Unrelated archive note 89\"}], \"history\": {\"messages\": {}}}"
+      }
+    },
+    {
+      "id": "chat_seed_90",
+      "table": "chat",
+      "values": {
+        "id": "fixture_90",
+        "title": "Fixture chat 90",
+        "chat": "{\"messages\": [{\"id\": \"message_90\", \"role\": \"assistant\", \"content\": \"Unrelated archive note 90\"}], \"history\": {\"messages\": {}}}"
+      }
+    },
+    {
+      "id": "chat_seed_91",
+      "table": "chat",
+      "values": {
+        "id": "fixture_91",
+        "title": "Fixture chat 91",
+        "chat": "{\"messages\": [{\"id\": \"message_91\", \"role\": \"assistant\", \"content\": \"Unrelated archive note 91\"}], \"history\": {\"messages\": {}}}"
+      }
+    },
+    {
+      "id": "chat_seed_92",
+      "table": "chat",
+      "values": {
+        "id": "fixture_92",
+        "title": "Fixture chat 92",
+        "chat": "{\"messages\": [{\"id\": \"message_92\", \"role\": \"assistant\", \"content\": \"Unrelated archive note 92\"}], \"history\": {\"messages\": {}}}"
+      }
+    },
+    {
+      "id": "chat_seed_93",
+      "table": "chat",
+      "values": {
+        "id": "fixture_93",
+        "title": "Fixture chat 93",
+        "chat": "{\"messages\": [{\"id\": \"message_93\", \"role\": \"assistant\", \"content\": \"Unrelated archive note 93\"}], \"history\": {\"messages\": {}}}"
+      }
+    },
+    {
+      "id": "chat_seed_94",
+      "table": "chat",
+      "values": {
+        "id": "fixture_94",
+        "title": "Fixture chat 94",
+        "chat": "{\"messages\": [{\"id\": \"message_94\", \"role\": \"assistant\", \"content\": \"Unrelated archive note 94\"}], \"history\": {\"messages\": {}}}"
+      }
+    },
+    {
+      "id": "chat_seed_95",
+      "table": "chat",
+      "values": {
+        "id": "fixture_95",
+        "title": "Fixture chat 95",
+        "chat": "{\"messages\": [{\"id\": \"message_95\", \"role\": \"assistant\", \"content\": \"Unrelated archive note 95\"}], \"history\": {\"messages\": {}}}"
+      }
+    },
+    {
+      "id": "chat_seed_96",
+      "table": "chat",
+      "values": {
+        "id": "fixture_96",
+        "title": "Fixture chat 96",
+        "chat": "{\"messages\": [{\"id\": \"message_96\", \"role\": \"assistant\", \"content\": \"Unrelated archive note 96\"}], \"history\": {\"messages\": {}}}"
+      }
+    },
+    {
+      "id": "chat_seed_97",
+      "table": "chat",
+      "values": {
+        "id": "fixture_97",
+        "title": "Fixture chat 97",
+        "chat": "{\"messages\": [{\"id\": \"message_97\", \"role\": \"assistant\", \"content\": \"Unrelated archive note 97\"}], \"history\": {\"messages\": {}}}"
+      }
+    },
+    {
+      "id": "chat_seed_98",
+      "table": "chat",
+      "values": {
+        "id": "fixture_98",
+        "title": "Fixture chat 98",
+        "chat": "{\"messages\": [{\"id\": \"message_98\", \"role\": \"assistant\", \"content\": \"Unrelated archive note 98\"}], \"history\": {\"messages\": {}}}"
+      }
+    },
+    {
+      "id": "chat_seed_99",
+      "table": "chat",
+      "values": {
+        "id": "fixture_99",
+        "title": "Fixture chat 99",
+        "chat": "{\"messages\": [{\"id\": \"message_99\", \"role\": \"assistant\", \"content\": \"Unrelated archive note 99\"}], \"history\": {\"messages\": {}}}"
+      }
+    }
+  ],
+  "operations": [
+    {
+      "id": "search_chat_messages",
+      "type": "select",
+      "table": "chat",
+      "columns": [
+        "id",
+        "title"
+      ],
+      "where": [
+        {
+          "column": "chat",
+          "op": "json_array_text_contains",
+          "path": [
+            "messages"
+          ],
+          "field": "content",
+          "value": "semax"
+        }
+      ],
+      "order_by": [
+        {
+          "column": "id",
+          "direction": "asc"
+        }
+      ],
+      "comparison": "ordered"
+    }
+  ],
+  "sqlite": {
+    "foreign_keys": true,
+    "strict": false
+  }
+}

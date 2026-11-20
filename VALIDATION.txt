@@ -1,0 +1,26 @@
+test_cancellation_and_interrupted_restart (test_api.APITests) ... ok
+test_compare_replay_bundle_and_persisted_history (test_api.APITests) ... ok
+test_generation_and_invalid_inputs (test_api.APITests) ... ok
+test_all_known_difference_families (test_engine.EngineTests) ... ok
+test_bound_strings_cannot_become_sql (test_engine.EngineTests) ... ok
+test_cancel_and_forbidden_output_drive (test_engine.EngineTests) ... ok
+test_filtered_delete_and_not_null_rejection (test_engine.EngineTests) ... ok
+test_fixed_variants_are_compatible (test_engine.EngineTests) ... ok
+test_integer_range_drift (test_engine.EngineTests) ... ok
+test_postgres_schema_is_cleaned_and_case_replays (test_engine.EngineTests) ... ok
+test_rejected_write_does_not_abort_subsequent_operations (test_engine.EngineTests) ... ok
+test_bag_comparison_preserves_multiplicity (test_model.ModelTests) ... ok
+test_boolean_version_and_excessive_input_rejected (test_model.ModelTests) ... ok
+test_rejects_identifier_injection (test_model.ModelTests) ... ok
+test_rejects_raw_sql_and_ambiguous_limit (test_model.ModelTests) ... ok
+test_seeded_generation_is_repeatable (test_model.ModelTests) ... ok
+test_export_reproduces_and_regression_catches_drift (test_reduce_export.ReductionExportTests) ... ok
+test_exported_compatible_regression_passes (test_reduce_export.ReductionExportTests) ... ok
+test_reduces_noise_rows_and_operations (test_reduce_export.ReductionExportTests) ... ok
+test_reduces_write_failure_to_operation_without_seed_rows (test_reduce_export.ReductionExportTests) ... ok
+test_refuses_passing_case (test_reduce_export.ReductionExportTests) ... ok
+
+----------------------------------------------------------------------
+Ran 21 tests in 9.421s
+
+OK

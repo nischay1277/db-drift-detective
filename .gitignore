@@ -1,0 +1,20 @@
+.vendor/
+.secrets/
+.tmp/
+.cache/
+runs/
+__pycache__/
+*.pyc
+.env
+.browser/
+
+# Local validation artifacts
+/BROWSER_CHECK.txt
+/ENVIRONMENT.json
+/DEMO_RESULTS.json
+/PREVIEW.png
+/case_studies/openwebui_nul/evidence/
+/case_studies/openwebui_nul/latest.json
+/case_studies/openwebui_nul/dashboard.json
+/case_studies/openwebui_nul/before-case.json
+/case_studies/openwebui_nul/after-case.json
