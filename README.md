@@ -1,5 +1,9 @@
 # DB Drift Detective
 
+**Stack:** Python, SQL, SQLite, PostgreSQL, FastAPI, unittest.
+
+**Verified:** A 500-row generated case was reduced to two rows and one query, with the reduced case rerun to confirm the same database behavior difference. See [validation results](VALIDATION.txt) and [the compatibility study](REAL_WORLD_VALIDATION.txt).
+
 Find application-behavior differences between **real SQLite and PostgreSQL**, then
 reduce a failing dataset into a small, executable reproduction.
 
